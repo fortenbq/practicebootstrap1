@@ -1,0 +1,15 @@
+
+/* adds a ghost element to pushdown content 60px(the hero image was cut off due to the nav being fixed to top)*/
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+
+@media(min-width: 768px){
+    .news-input{
+        width:50%;
+    }
+}
